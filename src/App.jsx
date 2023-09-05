@@ -83,7 +83,7 @@ const StepperComponent = () => {
     formData.append("file", file);
     setIsLoading(true);
     axios
-      .post("http://rioandhurgo.pythonanywhere.com/upload", formData, {
+      .post("https://rioandhurgo.pythonanywhere.com/upload", formData, {
         headers: {
           "Content-Type": "multipart/form-data",
         },
